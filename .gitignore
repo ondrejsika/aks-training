@@ -13,3 +13,19 @@
 *.local.yaml
 *.local.json
 *.local.txt
+
+# Terraform
+.terraform
+*.tfstate
+.terraform.tfstate.lock.info
+*.tfvars
+!*.EXAMPLE.tfvars
+override.tf
+
+# Infracost
+.infracost
+.infracost-reports
+
+# Kuberneres
+kubeconfig.yml
+kubeconfig.*.yml
